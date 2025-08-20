@@ -4,38 +4,30 @@ public class EstructurasEstaticas {
         int b = 11;
         System.out.println(a);
         System.out.println(b);
+        long c =300000000;
+        System.out.println(c);
+        int d= a+b;
+        int e= a-b;
+        int f= a*b;
+        float g= c/a;
+        System.out.println(d);
+        System.out.println(e);
+        System.out.println(f);
+        System.out.println(g);
+        char s= 'h';
+        char t= 'o';
+        char u= 'l';
+        char v= 'a';
+        String suma = ""+s+t+u+v;
+        System.out.println(suma);
+        boolean m=true;
+        boolean ñ=false;
+        System.out.println(m+" "+ñ);
+
         
-        int suma = a + b;
-        int resta = a - b;
-        double multiplicacion = a * b;
-        // Optional Division = a / b --> Optinal no es un tipo de dato. No genera error.
-        // Puede ser utilizado en divisiones por cero.
-        double division = a / b;
 
-        // long c = 30000000000000L
 
-        System.out.println("La suma es: " + suma);
-        System.out.println("La resta es: " + resta);
-        System.out.println("La multiplicación es: " + multiplicacion);
-        System.out.println("La división es: " + division);
 
-        // Otras estructuras de datos
-        char c = 'A'; // Entre comillas simples
-        String palabra = "Hola";
-        System.out.println("El caracter es: " + c);
-        System.out.println("La palabra es: " + palabra);
 
-        char d = 'H';
-        char e = 'O';
-        char f = 'L';
-        char g = 'A';
-
-        // String concatenar = d + e + f + g --> No es posible sumar letras en Java.
-        // System.out.println(concatenar)
-
-        Boolean z = true;
-        Boolean x = false; // los datos Boolean sólo pueden tener dos valores: True o False
-    }
-}
     }
 }
